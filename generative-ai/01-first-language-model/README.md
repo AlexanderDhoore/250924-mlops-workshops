@@ -127,15 +127,16 @@ You can find the full list here:
 
 🔗 [https://ollama.com/library/gemma3](https://ollama.com/library/gemma3)
 
-Use `ollama list` to see which models are already downloaded on your machine.
-
 Try running different versions by typing:
 
 ```bash
+ollama run <model name>
+
+# for example
 ollama run gemma3:4b
-ollama run gemma3:12b
-ollama run gemma3:27b
 ```
+
+Use `ollama list` to see which models are already downloaded on your machine.
 
 You can also try the **quantization-aware trained (QAT)** models, which have been trained to be more accurate, even for very small models:
 
